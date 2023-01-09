@@ -27,7 +27,7 @@ create table level (
   name varchar(100) not null,
   constraint fk_Gymnast foreign key (id_gymnast) references gymnast (id)
 );
-insert int championships ( )
+insert int level ( )
 values 
 
 create table Team_Gymnast  (

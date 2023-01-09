@@ -8,6 +8,9 @@ use --(nombre de la base que quieres entrar)-- --para entrar en ella
 constraint ??
 drop  ??
 select -- selecionar un dato
+mariadb -h -- especificas el host de base de datos que te quieres conectar.
+localhost -u -- mi servidor, a servidores externos ip
+adurango -p --o poner la contraseña directo
 
 create table customers (
   `e-mail` varchar(150), -- en vez de la doble comilla con doble comilla en postgres solo se le pone acento en catalan `e-mail`. Esto es para caracteres raros
