@@ -27,8 +27,8 @@ create table level (
   name varchar(100) not null,
   constraint fk_Gymnast foreign key (id_gymnast) references gymnast (id)
 );
-insert int level ( )
-values 
+insert into level (name)
+values (benjamin),
 
 create table Team_Gymnast  (
   constraint fk_team foreign key (id_gym_team) references gym_team (id),
@@ -49,7 +49,7 @@ create table Gymnast_Champi    (
 
 -- INTRODUCIR DATOS
 
-insert int gym_team (nickname,nif, address, country)
+insert into gym_team (nickname,nif, address, country)
 values (xelsca,GM43434665,"coll d'en rebassa", españa),
 ('Club Gimnástic Terrassa',GM676437,"terrasa", españa),
 (CLUB GRECH,GM43434665,Palma, españa),
@@ -57,7 +57,7 @@ values (xelsca,GM43434665,"coll d'en rebassa", españa),
 (CLUB ARTHEMYS DELS,GM43434665,berlin, alemania);
 -- Si en la id tengo que sea serial, tengo que ponerlo todo el tiempo?
 
-insert int gymnast (name, subname, Id_number, country)
+insert into gymnast (name, subname, Id_number, country)
 values (nicola, mir,11122233H, españa),
 (pere miquel, mir,16543091H, españa),
 (alberto, rocha,48398367K, españa),
@@ -71,7 +71,7 @@ values (nicola, mir,11122233H, españa),
 (anthony, marquez, GW6549376, francia),
 (rudolf, marvella, XV0615443, francia);
 
-insert int championships (name, start_data, ending_date, place, level_champion, )
+insert into championships (name, start_data, ending_date, place, level_champion, )
 values (ibardrola,11-12-2022,05-01-2023, madrid, nivel 5),
 (openeuro,11-12-2022,05-01-2023, berlin, nivel 10),
 (selecion europea,17-04-2022,17-04-2022, varsobia, nivel 9),
